@@ -1,0 +1,7 @@
+{
+  "name": "@scope/examples-input-file",
+  "exports": "main.ts",
+  "tasks": {
+    "dev": "deno run -A --watch main.ts"
+  }
+}

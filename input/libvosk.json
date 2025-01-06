@@ -80,35 +80,9 @@
     {
         "tag": "struct",
         "ns": 0,
-        "name": "VoskTextProcessor",
-        "id": 0,
-        "location": "/data/input/vosk_api.h:43:16",
-        "bit-size": 0,
-        "bit-alignment": 0,
-        "fields": []
-    },
-    {
-        "tag": "typedef",
-        "ns": 0,
-        "name": "VoskTextProcessor",
-        "location": "/data/input/vosk_api.h:43:34",
-        "type": {
-            "tag": "struct",
-            "ns": 0,
-            "name": "VoskTextProcessor",
-            "id": 0,
-            "location": "/data/input/vosk_api.h:43:16",
-            "bit-size": 0,
-            "bit-alignment": 0,
-            "fields": []
-        }
-    },
-    {
-        "tag": "struct",
-        "ns": 0,
         "name": "VoskBatchModel",
         "id": 0,
-        "location": "/data/input/vosk_api.h:48:16",
+        "location": "/data/input/vosk_api.h:46:16",
         "bit-size": 0,
         "bit-alignment": 0,
         "fields": []
@@ -117,13 +91,13 @@
         "tag": "typedef",
         "ns": 0,
         "name": "VoskBatchModel",
-        "location": "/data/input/vosk_api.h:48:31",
+        "location": "/data/input/vosk_api.h:46:31",
         "type": {
             "tag": "struct",
             "ns": 0,
             "name": "VoskBatchModel",
             "id": 0,
-            "location": "/data/input/vosk_api.h:48:16",
+            "location": "/data/input/vosk_api.h:46:16",
             "bit-size": 0,
             "bit-alignment": 0,
             "fields": []
@@ -134,7 +108,7 @@
         "ns": 0,
         "name": "VoskBatchRecognizer",
         "id": 0,
-        "location": "/data/input/vosk_api.h:53:16",
+        "location": "/data/input/vosk_api.h:51:16",
         "bit-size": 0,
         "bit-alignment": 0,
         "fields": []
@@ -143,13 +117,13 @@
         "tag": "typedef",
         "ns": 0,
         "name": "VoskBatchRecognizer",
-        "location": "/data/input/vosk_api.h:53:36",
+        "location": "/data/input/vosk_api.h:51:36",
         "type": {
             "tag": "struct",
             "ns": 0,
             "name": "VoskBatchRecognizer",
             "id": 0,
-            "location": "/data/input/vosk_api.h:53:16",
+            "location": "/data/input/vosk_api.h:51:16",
             "bit-size": 0,
             "bit-alignment": 0,
             "fields": []
@@ -159,7 +133,7 @@
         "tag": "function",
         "name": "vosk_model_new",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:60:12",
+        "location": "/data/input/vosk_api.h:58:12",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -188,7 +162,7 @@
         "tag": "function",
         "name": "vosk_model_free",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:68:6",
+        "location": "/data/input/vosk_api.h:66:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -212,7 +186,7 @@
         "tag": "function",
         "name": "vosk_model_find_word",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:76:5",
+        "location": "/data/input/vosk_api.h:74:5",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -250,7 +224,7 @@
         "tag": "function",
         "name": "vosk_spk_model_new",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:83:15",
+        "location": "/data/input/vosk_api.h:81:15",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -279,7 +253,7 @@
         "tag": "function",
         "name": "vosk_spk_model_free",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:91:6",
+        "location": "/data/input/vosk_api.h:89:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -303,7 +277,7 @@
         "tag": "function",
         "name": "vosk_recognizer_new",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:102:17",
+        "location": "/data/input/vosk_api.h:100:17",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -339,7 +313,7 @@
         "tag": "function",
         "name": "vosk_recognizer_new_spk",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:117:17",
+        "location": "/data/input/vosk_api.h:115:17",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -385,7 +359,7 @@
         "tag": "function",
         "name": "vosk_recognizer_new_grm",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:139:17",
+        "location": "/data/input/vosk_api.h:137:17",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -433,7 +407,7 @@
         "tag": "function",
         "name": "vosk_recognizer_set_spk_model",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:148:6",
+        "location": "/data/input/vosk_api.h:146:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -467,7 +441,7 @@
         "tag": "function",
         "name": "vosk_recognizer_set_grm",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:157:6",
+        "location": "/data/input/vosk_api.h:155:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -503,7 +477,7 @@
         "tag": "function",
         "name": "vosk_recognizer_set_max_alternatives",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:173:6",
+        "location": "/data/input/vosk_api.h:171:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -536,7 +510,7 @@
         "tag": "function",
         "name": "vosk_recognizer_set_words",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:209:6",
+        "location": "/data/input/vosk_api.h:207:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -569,7 +543,7 @@
         "tag": "function",
         "name": "vosk_recognizer_set_partial_words",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:215:6",
+        "location": "/data/input/vosk_api.h:213:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -602,7 +576,7 @@
         "tag": "function",
         "name": "vosk_recognizer_set_nlsml",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:220:6",
+        "location": "/data/input/vosk_api.h:218:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -632,132 +606,10 @@
         }
     },
     {
-        "tag": "enum",
-        "ns": 0,
-        "name": "VoskEpMode",
-        "id": 0,
-        "location": "/data/input/vosk_api.h:222:14",
-        "fields": [
-            {
-                "tag": "field",
-                "name": "VOSK_EP_ANSWER_DEFAULT",
-                "value": 0
-            },
-            {
-                "tag": "field",
-                "name": "VOSK_EP_ANSWER_SHORT",
-                "value": 1
-            },
-            {
-                "tag": "field",
-                "name": "VOSK_EP_ANSWER_LONG",
-                "value": 2
-            },
-            {
-                "tag": "field",
-                "name": "VOSK_EP_ANSWER_VERY_LONG",
-                "value": 3
-            }
-        ]
-    },
-    {
-        "tag": "typedef",
-        "ns": 0,
-        "name": "VoskEndpointerMode",
-        "location": "/data/input/vosk_api.h:227:3",
-        "type": {
-            "tag": ":enum",
-            "name": "VoskEpMode",
-            "id": 0
-        }
-    },
-    {
-        "tag": "function",
-        "name": "vosk_recognizer_set_endpointer_mode",
-        "ns": 0,
-        "location": "/data/input/vosk_api.h:234:6",
-        "variadic": false,
-        "inline": false,
-        "storage-class": "none",
-        "parameters": [
-            {
-                "tag": "parameter",
-                "name": "recognizer",
-                "type": {
-                    "tag": ":pointer",
-                    "type": {
-                        "tag": "VoskRecognizer"
-                    }
-                }
-            },
-            {
-                "tag": "parameter",
-                "name": "mode",
-                "type": {
-                    "tag": "VoskEndpointerMode"
-                }
-            }
-        ],
-        "return-type": {
-            "tag": ":void"
-        }
-    },
-    {
-        "tag": "function",
-        "name": "vosk_recognizer_set_endpointer_delays",
-        "ns": 0,
-        "location": "/data/input/vosk_api.h:243:6",
-        "variadic": false,
-        "inline": false,
-        "storage-class": "none",
-        "parameters": [
-            {
-                "tag": "parameter",
-                "name": "recognizer",
-                "type": {
-                    "tag": ":pointer",
-                    "type": {
-                        "tag": "VoskRecognizer"
-                    }
-                }
-            },
-            {
-                "tag": "parameter",
-                "name": "t_start_max",
-                "type": {
-                    "tag": ":float",
-                    "bit-size": 32,
-                    "bit-alignment": 32
-                }
-            },
-            {
-                "tag": "parameter",
-                "name": "t_end",
-                "type": {
-                    "tag": ":float",
-                    "bit-size": 32,
-                    "bit-alignment": 32
-                }
-            },
-            {
-                "tag": "parameter",
-                "name": "t_max",
-                "type": {
-                    "tag": ":float",
-                    "bit-size": 32,
-                    "bit-alignment": 32
-                }
-            }
-        ],
-        "return-type": {
-            "tag": ":void"
-        }
-    },
-    {
         "tag": "function",
         "name": "vosk_recognizer_accept_waveform",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:254:5",
+        "location": "/data/input/vosk_api.h:230:5",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -804,7 +656,7 @@
         "tag": "function",
         "name": "vosk_recognizer_accept_waveform_s",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:259:5",
+        "location": "/data/input/vosk_api.h:235:5",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -851,7 +703,7 @@
         "tag": "function",
         "name": "vosk_recognizer_accept_waveform_f",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:264:5",
+        "location": "/data/input/vosk_api.h:240:5",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -898,7 +750,7 @@
         "tag": "function",
         "name": "vosk_recognizer_result",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:283:13",
+        "location": "/data/input/vosk_api.h:259:13",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -927,7 +779,7 @@
         "tag": "function",
         "name": "vosk_recognizer_partial_result",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:297:13",
+        "location": "/data/input/vosk_api.h:273:13",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -956,7 +808,7 @@
         "tag": "function",
         "name": "vosk_recognizer_final_result",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:306:13",
+        "location": "/data/input/vosk_api.h:282:13",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -985,7 +837,7 @@
         "tag": "function",
         "name": "vosk_recognizer_reset",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:312:6",
+        "location": "/data/input/vosk_api.h:288:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1009,7 +861,7 @@
         "tag": "function",
         "name": "vosk_recognizer_free",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:318:6",
+        "location": "/data/input/vosk_api.h:294:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1033,7 +885,7 @@
         "tag": "function",
         "name": "vosk_set_log_level",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:327:6",
+        "location": "/data/input/vosk_api.h:303:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1056,7 +908,7 @@
         "tag": "function",
         "name": "vosk_gpu_init",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:334:6",
+        "location": "/data/input/vosk_api.h:310:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1069,7 +921,7 @@
         "tag": "function",
         "name": "vosk_gpu_thread_init",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:341:6",
+        "location": "/data/input/vosk_api.h:317:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1082,7 +934,7 @@
         "tag": "function",
         "name": "vosk_batch_model_new",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:346:17",
+        "location": "/data/input/vosk_api.h:322:17",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1111,7 +963,7 @@
         "tag": "function",
         "name": "vosk_batch_model_free",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:349:6",
+        "location": "/data/input/vosk_api.h:325:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1135,7 +987,7 @@
         "tag": "function",
         "name": "vosk_batch_model_wait",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:352:6",
+        "location": "/data/input/vosk_api.h:328:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1159,7 +1011,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_new",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:356:22",
+        "location": "/data/input/vosk_api.h:332:22",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1195,7 +1047,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_free",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:359:6",
+        "location": "/data/input/vosk_api.h:335:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1219,7 +1071,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_accept_waveform",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:362:6",
+        "location": "/data/input/vosk_api.h:338:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1264,7 +1116,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_set_nlsml",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:367:6",
+        "location": "/data/input/vosk_api.h:343:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1297,7 +1149,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_finish_stream",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:370:6",
+        "location": "/data/input/vosk_api.h:346:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1321,7 +1173,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_front_result",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:373:13",
+        "location": "/data/input/vosk_api.h:349:13",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1350,7 +1202,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_pop",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:376:6",
+        "location": "/data/input/vosk_api.h:352:6",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1374,7 +1226,7 @@
         "tag": "function",
         "name": "vosk_batch_recognizer_get_pending_chunks",
         "ns": 0,
-        "location": "/data/input/vosk_api.h:379:5",
+        "location": "/data/input/vosk_api.h:355:5",
         "variadic": false,
         "inline": false,
         "storage-class": "none",
@@ -1394,112 +1246,6 @@
             "tag": ":int",
             "bit-size": 32,
             "bit-alignment": 32
-        }
-    },
-    {
-        "tag": "function",
-        "name": "vosk_text_processor_new",
-        "ns": 0,
-        "location": "/data/input/vosk_api.h:382:20",
-        "variadic": false,
-        "inline": false,
-        "storage-class": "none",
-        "parameters": [
-            {
-                "tag": "parameter",
-                "name": "tagger",
-                "type": {
-                    "tag": ":pointer",
-                    "type": {
-                        "tag": ":char",
-                        "bit-size": 8,
-                        "bit-alignment": 8
-                    }
-                }
-            },
-            {
-                "tag": "parameter",
-                "name": "verbalizer",
-                "type": {
-                    "tag": ":pointer",
-                    "type": {
-                        "tag": ":char",
-                        "bit-size": 8,
-                        "bit-alignment": 8
-                    }
-                }
-            }
-        ],
-        "return-type": {
-            "tag": ":pointer",
-            "type": {
-                "tag": "VoskTextProcessor"
-            }
-        }
-    },
-    {
-        "tag": "function",
-        "name": "vosk_text_processor_free",
-        "ns": 0,
-        "location": "/data/input/vosk_api.h:385:6",
-        "variadic": false,
-        "inline": false,
-        "storage-class": "none",
-        "parameters": [
-            {
-                "tag": "parameter",
-                "name": "processor",
-                "type": {
-                    "tag": ":pointer",
-                    "type": {
-                        "tag": "VoskTextProcessor"
-                    }
-                }
-            }
-        ],
-        "return-type": {
-            "tag": ":void"
-        }
-    },
-    {
-        "tag": "function",
-        "name": "vosk_text_processor_itn",
-        "ns": 0,
-        "location": "/data/input/vosk_api.h:388:7",
-        "variadic": false,
-        "inline": false,
-        "storage-class": "none",
-        "parameters": [
-            {
-                "tag": "parameter",
-                "name": "processor",
-                "type": {
-                    "tag": ":pointer",
-                    "type": {
-                        "tag": "VoskTextProcessor"
-                    }
-                }
-            },
-            {
-                "tag": "parameter",
-                "name": "input",
-                "type": {
-                    "tag": ":pointer",
-                    "type": {
-                        "tag": ":char",
-                        "bit-size": 8,
-                        "bit-alignment": 8
-                    }
-                }
-            }
-        ],
-        "return-type": {
-            "tag": ":pointer",
-            "type": {
-                "tag": ":char",
-                "bit-size": 8,
-                "bit-alignment": 8
-            }
         }
     }
 ]

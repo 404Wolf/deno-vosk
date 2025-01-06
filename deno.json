@@ -1,7 +1,10 @@
 {
   "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
-  "exports": "./vosk/mod.ts",
+  "workspace": ["examples/*"],
   "imports": {
-    "vosk": "npm:vosk"
+    "node-microphone": "npm:node-microphone@^0.1.6",
+    "vosk": "./vosk/Vosk.ts",
+    "_libvosk": "./vosk/libvosk/mod.ts",
+    "ffigen": "jsr:@divy/ffigen"
   }
 }
