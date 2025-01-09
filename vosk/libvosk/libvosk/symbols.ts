@@ -69,6 +69,16 @@ export const libvosk_SYMBOLS = {
     parameters: ["pointer", "i32"],
     result: "void"
   },
+  recognizer_set_endpointer_mode: {
+    name: "vosk_recognizer_set_endpointer_mode",
+    parameters: ["pointer", "i32"],
+    result: "void"
+  },
+  recognizer_set_endpointer_delays: {
+    name: "vosk_recognizer_set_endpointer_delays",
+    parameters: ["pointer", "f64", "f64", "f64"],
+    result: "void"
+  },
   recognizer_accept_waveform: {
     name: "vosk_recognizer_accept_waveform",
     parameters: ["pointer", "pointer", "i32"],
@@ -178,5 +188,20 @@ export const libvosk_SYMBOLS = {
     name: "vosk_batch_recognizer_get_pending_chunks",
     parameters: ["pointer"],
     result: "i32"
+  },
+  text_processor_new: {
+    name: "vosk_text_processor_new",
+    parameters: ["pointer", "pointer"],
+    result: "pointer"
+  },
+  text_processor_free: {
+    name: "vosk_text_processor_free",
+    parameters: ["pointer"],
+    result: "void"
+  },
+  text_processor_itn: {
+    name: "vosk_text_processor_itn",
+    parameters: ["pointer", "pointer"],
+    result: "pointer"
   }
 } as const;
