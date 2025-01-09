@@ -1,4 +1,4 @@
-import type { Model, SpeakerModel } from "./Model.ts";
+import type { Model, SpeakerModel } from "@vosk/Model.ts";
 
 export type WordResult = {
   conf: number;

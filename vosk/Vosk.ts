@@ -1,7 +1,7 @@
 import { loadlibvosk } from "_libvosk";
-import { Model, SpeakerModel } from "./Model.ts";
-import { Recognizer } from "./Recognizer.ts";
-import { BaseRecognizerParam } from "./types.ts";
+import { Model, SpeakerModel } from "@vosk/Model.ts";
+import { Recognizer } from "@vosk/Recognizer.ts";
+import { BaseRecognizerParam } from "@vosk/types.ts";
 
 /**
  * Client to interact with Vosk API.

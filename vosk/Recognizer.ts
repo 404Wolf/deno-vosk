@@ -1,8 +1,8 @@
-import { cstr, Pointer, readCString } from "./libvosk/safe-ffi.ts";
-import type { libvosk as v } from "./libvosk/types.ts";
-import { SpeakerModel } from "./Model.ts";
-import { isGrammarRecognizerParam, isSpeakerRecognizerParam } from "./types.ts";
-import { type BaseRecognizerParam, PartialResults, Result } from "./types.ts";
+import { cstr, Pointer, readCString } from "@vosk/libvosk/safe-ffi.ts";
+import type { libvosk as v } from "@vosk/libvosk/types.ts";
+import { SpeakerModel } from "@vosk/Model.ts";
+import { isGrammarRecognizerParam, isSpeakerRecognizerParam } from "@vosk/types.ts";
+import { type BaseRecognizerParam, PartialResults, Result } from "@vosk/types.ts";
 import Vosk from "vosk";
 
 /**
@@ -40,19 +40,19 @@ export class Recognizer<T extends BaseRecognizerParam> {
     if (isGrammarRecognizerParam(param)) {
       this.handle = this.vosk.call.recognizer_new_grm(
         model.handle,
-        sampleRate,
+        sampleRate as unknown as bigint,
         cstr(JSON.stringify(param.grammar)),
       );
     } else if (isSpeakerRecognizerParam(param)) {
       this.handle = this.vosk.call.recognizer_new_spk(
         model.handle,
-        sampleRate,
+        sampleRate as unknown as bigint,
         (param.speakerModel!).handle,
       );
     } else {
       this.handle = this.vosk.call.recognizer_new(
         model.handle,
-        sampleRate,
+        sampleRate as unknown as bigint,
       );
     }
   }
