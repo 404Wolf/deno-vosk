@@ -1,7 +1,7 @@
-import { libvosk } from "./types.ts";
-import { libvosk_SYMBOLS } from "./symbols.ts";
+import { libvosk } from "@vosk/libvosk/types.ts";
+import { libvosk_SYMBOLS } from "@vosk/libvosk/symbols.ts";
 
-export * from "./safe-ffi.ts";
+export * from "@vosk/libvosk/safe-ffi.ts";
 export type { libvosk };
 
 export function loadlibvosk(path: string): typeof libvosk {

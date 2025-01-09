@@ -1,7 +1,7 @@
 import { loadlibvosk } from "_libvosk";
 import { Model, SpeakerModel } from "@vosk/Model.ts";
 import { Recognizer } from "@vosk/Recognizer.ts";
-import { BaseRecognizerParam } from "@vosk/types.ts";
+import type { BaseRecognizerParam } from "@vosk/types.ts";
 
 /**
  * Client to interact with Vosk API.
@@ -23,7 +23,7 @@ export default class Vosk {
   /**
    * Get libvosk interactive symbols.
    */
-  get call() {
+  get call(): ReturnType<typeof loadlibvosk> {
     return this.client;
   }
 
@@ -40,7 +40,7 @@ export default class Vosk {
    *
    * @param {string} modelPath The path to the model.
    */
-  loadModel(modelPath: string) {
+  loadModel(modelPath: string): Model {
     return new Model(this, modelPath);
   }
 
@@ -49,7 +49,7 @@ export default class Vosk {
    *
    * @param {string} modelPath The path to the model.
    */
-  loadSpeakerModel(modelPath: string) {
+  loadSpeakerModel(modelPath: string): SpeakerModel {
     return new SpeakerModel(this, modelPath);
   }
 

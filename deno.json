@@ -13,5 +13,9 @@
     "options": {
       "lineWidth": 100
     }
-  }
+  },
+  "exports": "./mod.ts",
+  "name": "@vosk/vosk",
+  "version": "0.0.1",
+  "license": "mit"
 }

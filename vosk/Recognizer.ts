@@ -1,9 +1,9 @@
-import { cstr, Pointer, readCString } from "@vosk/libvosk/safe-ffi.ts";
+import { cstr, type Pointer, readCString } from "@vosk/libvosk/safe-ffi.ts";
 import type { libvosk as v } from "@vosk/libvosk/types.ts";
-import { SpeakerModel } from "@vosk/Model.ts";
+import type { SpeakerModel } from "@vosk/Model.ts";
 import { isGrammarRecognizerParam, isSpeakerRecognizerParam } from "@vosk/types.ts";
-import { type BaseRecognizerParam, PartialResults, Result } from "@vosk/types.ts";
-import Vosk from "vosk";
+import type { BaseRecognizerParam, PartialResults, Result } from "@vosk/types.ts";
+import type Vosk from "vosk";
 
 /**
  * Create a Recognizer that will be able to transform audio streams into text using a Model.
@@ -197,7 +197,7 @@ export class Recognizer<T extends BaseRecognizerParam> {
    *  }
    * </pre>
    */
-  resultString() {
+  resultString(): Pointer<number> {
     return this.vosk.call.recognizer_result(this.handle);
   }
 
@@ -239,7 +239,7 @@ export class Recognizer<T extends BaseRecognizerParam> {
   /**
    * Resets current results so the recognition can continue from scratch
    */
-  reset() {
+  reset(): void {
     this.vosk.call.recognizer_reset(this.handle);
   }
 }
