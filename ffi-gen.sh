@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+cd vosk/libvosk || exit 1
+
 C_LIB=libvosk
 INPUT_DIR="input"
 
@@ -14,4 +18,13 @@ deno run -A https://deno.land/x/ffigen/cli.ts \
     --headers "$INPUT_DIR/vosk_api.h" \
     --lib-name libvosk \
     --lib-prefix vosk_
+
+cd libvosk || exit 1
+patch -p1 < ../safe-ffi.patch
+
+cd ..
+mv ./libvosk/* ../
+rmdir libvosk
+
+echo "Finsihed generating FFI bindings"
 
