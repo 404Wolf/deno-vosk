@@ -30,8 +30,8 @@ export type SpeakerRecognizerParam = {
   speakerModel: SpeakerModel;
 };
 
-export type Result<T extends BaseRecognizerParam> = T extends
-  SpeakerRecognizerParam ? SpeakerResults & RecognitionResults
+export type Result<T extends BaseRecognizerParam> = T extends SpeakerRecognizerParam
+  ? SpeakerResults & RecognitionResults
   : RecognitionResults;
 
 export type PartialResults = {

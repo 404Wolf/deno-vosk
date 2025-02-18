@@ -1,5 +1,5 @@
-import { cstr, type Pointer, readCString } from "@vosk/libvosk/safe-ffi.ts";
-import type { libvosk as v } from "@vosk/libvosk/types.ts";
+import { cstr, type Pointer, readCString } from "@vosk/libvosk/libvosk/safe-ffi.ts";
+import type { libvosk as v } from "@vosk/libvosk/libvosk/types.ts";
 import type { SpeakerModel } from "@vosk/Model.ts";
 import { isGrammarRecognizerParam, isSpeakerRecognizerParam } from "@vosk/types.ts";
 import type { BaseRecognizerParam, PartialResults, Result } from "@vosk/types.ts";

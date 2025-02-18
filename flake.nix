@@ -18,7 +18,6 @@
         shellHook = ''
           export VOSKLIB_PATH=$(pwd)/input/libvosk.so
           export VOSK_MODEL_PATH=$(pwd)/model
-          export LD_LIBRARY_PATH=$VOSKLIB_PATH:${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
         '';
         packages = with pkgs; [
           deno

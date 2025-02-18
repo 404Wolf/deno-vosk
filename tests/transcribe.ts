@@ -1,5 +1,4 @@
 import Vosk from "vosk";
-// import "@std/dotenv/load";
 
 const VOSK_MODEL_PATH = "model";
 const SAMPLE_RATE = 16000;
@@ -22,7 +21,7 @@ const audioFile = await Deno.readFile("test.wav");
 console.log("Audio file read");
 
 // Process the audio file
-const data = new Int16Array(audioFile);
+const data = new Uint8Array(audioFile);
 console.log("Data length:", data.length);
 console.log("Data:", data);
 recognizer.acceptWaveform(data);

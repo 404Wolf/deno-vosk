@@ -6,7 +6,7 @@
     "node-microphone": "npm:node-microphone@^0.1.6",
     "vosk": "./vosk/Vosk.ts",
     "@vosk/": "./vosk/",
-    "_libvosk": "./vosk/libvosk/mod.ts",
+    "_libvosk": "./vosk/mod.ts",
     "ffigen": "jsr:@divy/ffigen"
   },
   "fmt": {

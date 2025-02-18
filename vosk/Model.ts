@@ -1,6 +1,6 @@
 import type Vosk from "vosk";
-import type { libvosk as v } from "@vosk/libvosk/types.ts";
-import { cstr, type Pointer } from "@vosk/libvosk/safe-ffi.ts";
+import type { libvosk as v } from "@vosk/libvosk/libvosk/types.ts";
+import { cstr, type Pointer } from "@vosk/safe-ffi.ts";
 
 /**
  * Build a Model from a model file.
