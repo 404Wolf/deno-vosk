@@ -1,4 +1,4 @@
-import { loadlibvosk } from "@vosk/libvosk/libvosk/mod.ts";
+import { loadlibvosk } from "@vosk/libvosk/mod.ts";
 import { Model, SpeakerModel } from "@vosk/Model.ts";
 import { Recognizer } from "@vosk/Recognizer.ts";
 import type { BaseRecognizerParam } from "@vosk/types.ts";

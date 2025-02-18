@@ -1,10 +1,10 @@
 import Vosk from "vosk";
 
-const VOSK_MODEL_PATH = "model";
+const VOSK_MODEL_PATH = "/home/wolf/Documents/Projects/vosk/nix-vosk/tests/model";
 const SAMPLE_RATE = 16000;
 
 // Initialize Vosk
-const vosk = new Vosk("../vosk/libvosk/input/libvosk.so");
+const vosk = new Vosk("vosk/build/input/libvosk.so");
 vosk.setLogLevel(2);
 console.log("Vosk initialized");
 
